@@ -50,6 +50,9 @@ Test it:
 ```
 $ echo "Hello world!" | msmtp you@example.com
 ```
+```
+n10871195@qut.edu.au
+```
 
 **Note:** You might bump into authentication problems on your first try. In my case, Gmail sent me an email alerting that a less secure application was trying to log into my account. I followed the links in the message and changed settings to allow ssmtp to log in. I also had to enable IMAP access on my Gmail settings.
 
